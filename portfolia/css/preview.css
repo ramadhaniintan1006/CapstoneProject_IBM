@@ -1,0 +1,53 @@
+/* ============================================
+   PORTFOLIA — Preview Page Styles
+   ============================================ */
+
+.preview-page-wrapper {
+  min-height: 100vh;
+}
+
+/* Top preview bar */
+.preview-page-bar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1000;
+  background: rgba(36, 36, 36, 0.95);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  padding: 0.6rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+.preview-bar-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.preview-bar-logo {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+}
+.preview-bar-logo span { color: var(--lavender); }
+.preview-bar-label {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 20px;
+  padding: 0.2rem 0.75rem;
+  font-size: 0.72rem;
+  color: rgba(255,255,255,0.7);
+}
+.preview-bar-right { display: flex; gap: 0.75rem; align-items: center; }
+
+/* Preview content area */
+.preview-content {
+  padding-top: 44px; /* offset for fixed bar */
+}
+
+/* ── Full portfolio render container ── */
+#portfolioContent {
+  min-height: calc(100vh - 44px);
+}

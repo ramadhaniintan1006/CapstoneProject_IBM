@@ -1,0 +1,60 @@
+/* ============================================
+   PORTFOLIA — About Section + Landing extras
+   ============================================ */
+
+.hero-stats {
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.hero-stats strong {
+  color: var(--charcoal);
+  font-weight: 600;
+}
+
+.about-section {
+  padding: 7rem 2rem;
+  background: var(--ivory);
+}
+.about-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+.about-text p { color: var(--text-muted); line-height: 1.8; }
+.about-visual-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.about-card {
+  border-radius: var(--radius-lg);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  transition: var(--transition);
+}
+.about-card:hover { transform: translateY(-4px); }
+.about-card-1 { background: linear-gradient(135deg, #ede8f7, #d8ccf0); }
+.about-card-2 { background: linear-gradient(135deg, #fef0ea, #f5d8cd); }
+.about-card-3 { background: linear-gradient(135deg, #eef3ed, #d5e0d3); }
+.about-card-4 { background: linear-gradient(135deg, #f5f0e8, #ede0cc); }
+.about-card-num {
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--charcoal);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+.about-card-label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 768px) {
+  .about-inner { grid-template-columns: 1fr; gap: 3rem; }
+}

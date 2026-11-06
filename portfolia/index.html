@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolia — Create a stunning portfolio website for your creative work. No coding required." />
+  <title>Portfolia — Your creativity, beautifully presented.</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/landing.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%23B7A5D6'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-size='18' font-family='Georgia,serif' fill='white' font-weight='bold'%3EP%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <!-- ========================
+       NAVIGATION
+  ======================== -->
+  <nav class="site-nav" id="siteNav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Portfolia<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#templates">Templates</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+      <a href="editor.html" class="btn btn-primary nav-cta">Get Started</a>
+      <button class="nav-hamburger" id="hamburgerBtn" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Close menu">✕</button>
+    <a href="#features" class="mobile-nav-link">Features</a>
+    <a href="#templates" class="mobile-nav-link">Templates</a>
+    <a href="#how-it-works" class="mobile-nav-link">How It Works</a>
+    <a href="#about" class="mobile-nav-link">About</a>
+    <a href="editor.html" class="btn btn-primary btn-lg">Get Started</a>
+  </div>
+
+  <!-- ========================
+       HERO SECTION
+  ======================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-shape hero-bg-shape-1"></div>
+    <div class="hero-bg-shape hero-bg-shape-2"></div>
+    <div class="hero-inner container">
+      <div class="hero-content">
+        <div class="hero-label">✦ Creative Portfolio Builder</div>
+        <h1 class="hero-title">
+          Your Work Deserves a<br>
+          <em>Beautiful Space.</em>
+        </h1>
+        <p class="hero-subtitle">
+          Create a portfolio that tells your creative story.<br>
+          No coding required. Just pure creativity.
+        </p>
+        <div class="hero-actions">
+          <a href="editor.html" class="btn btn-primary btn-lg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+            Create My Portfolio
+          </a>
+          <a href="#templates" class="btn btn-outline btn-lg">Explore Templates</a>
+        </div>
+        <p class="hero-stats">
+          <strong>4 templates</strong> &nbsp;·&nbsp; <strong>6 categories</strong> &nbsp;·&nbsp; <strong>100% free</strong>
+        </p>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-mockup-container">
+          <div class="hero-mockup-browser">
+            <div class="browser-dot"></div>
+            <div class="browser-dot"></div>
+            <div class="browser-dot"></div>
+            <div class="browser-bar"></div>
+          </div>
+          <div class="hero-mockup-content">
+            <div class="mock-card mock-card-1"></div>
+            <div class="mock-card mock-card-2"></div>
+            <div class="mock-card mock-card-3"></div>
+            <div class="mock-card mock-card-4"></div>
+          </div>
+        </div>
+        <div class="hero-float-badge">
+          <div class="hero-float-badge-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <div>
+            <div style="font-size:0.78rem;color:var(--text-muted);">Live Preview</div>
+            <div style="font-weight:600;font-size:0.9rem;">Instant Updates</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================
+       FEATURES SECTION
+  ======================== -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="features-header fade-up">
+        <div class="section-tag">What You Get</div>
+        <h2 class="section-title">Everything you need to<br><em class="serif italic">showcase your craft.</em></h2>
+        <p class="section-subtitle">Portfolia gives creative professionals all the tools to build a stunning portfolio — without a single line of code.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card fade-up">
+          <div class="feature-icon feature-icon-1">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 3v18M3 9h18"/></svg>
+          </div>
+          <h4>Easy Portfolio Builder</h4>
+          <p>Drag-and-drop editing with intuitive controls. No technical knowledge needed to create something stunning.</p>
+        </div>
+        <div class="feature-card fade-up">
+          <div class="feature-icon feature-icon-2">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          </div>
+          <h4>Beautiful Templates</h4>
+          <p>Four distinct portfolio templates — Editorial, Playful, Minimal, and Dark Canvas — each crafted with care.</p>
+        </div>
+        <div class="feature-card fade-up">
+          <div class="feature-icon feature-icon-3">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+          </div>
+          <h4>Live Preview</h4>
+          <p>See every change instantly. Your portfolio updates in real-time as you edit — what you see is what you get.</p>
+        </div>
+        <div class="feature-card fade-up">
+          <div class="feature-icon feature-icon-4">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+          </div>
+          <h4>Customizable Themes</h4>
+          <p>Choose colors, typography, and layouts to match your personal brand. Your portfolio, your rules.</p>
+        </div>
+        <div class="feature-card fade-up">
+          <div class="feature-icon feature-icon-5">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+          </div>
+          <h4>Image Gallery</h4>
+          <p>Upload and showcase your work beautifully. Large project images with captions and category filters.</p>
+        </div>
+        <div class="feature-card fade-up">
+          <div class="feature-icon feature-icon-6">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          </div>
+          <h4>HTML Export</h4>
+          <p>Download your complete portfolio as a standalone HTML file. Host it anywhere — for free, forever.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================
+       TEMPLATES SECTION
+  ======================== -->
+  <section class="templates-section" id="templates">
+    <div class="container">
+      <div class="templates-header text-center fade-up">
+        <div class="section-tag">Templates</div>
+        <h2 class="section-title">Find your visual voice.</h2>
+        <p class="section-subtitle" style="margin: 0 auto;">Start with a professionally designed template and make it your own.</p>
+      </div>
+      <div class="templates-grid">
+        <div class="template-preview-card tmpl-editorial fade-up" onclick="window.location='editor.html'">
+          <div class="template-preview-thumb">
+            <div class="template-thumb-inner">
+              <div class="tmpl-bar-lg tmpl-bar"></div>
+              <div class="tmpl-bar-sm tmpl-bar"></div>
+              <div class="tmpl-rect"></div>
+              <div class="tmpl-grid">
+                <div class="tmpl-grid-item"></div>
+                <div class="tmpl-grid-item"></div>
+                <div class="tmpl-grid-item"></div>
+                <div class="tmpl-grid-item"></div>
+              </div>
+            </div>
+          </div>
+          <div class="template-preview-info">
+            <h4>Editorial</h4>
+            <span>Elegant · Serif · Spacious</span>
+          </div>
+        </div>
+        <div class="template-preview-card tmpl-playful fade-up" onclick="window.location='editor.html'">
+          <div class="template-preview-thumb">
+            <div class="template-thumb-inner">
+              <div class="tmpl-bar-lg tmpl-bar"></div>
+              <div class="tmpl-bar-sm tmpl-bar"></div>
+              <div class="tmpl-rect"></div>
+              <div class="tmpl-grid">
+                <div class="tmpl-grid-item"></div>
+                <div class="tmpl-grid-item"></div>
+                <div class="tmpl-grid-item"></div>
+                <div class="tmpl-grid-item"></div>
+              </div>
+            </div>
+          </div>
+          <div class="template-preview-info">
+            <h4>Playful</h4>
+            <span>Colorful · Bold · Creative</span>
+          </div>
+        </div>
+        <div class="template-preview-card tmpl-minimal fade-up" onclick="window.location='editor.html'">
+          <div class="template-preview-thumb">
+            <div class="template-thumb-inner">
+              <div class="tmpl-bar-lg tmpl-bar"></div>
+              <div class="tmpl-bar-sm tmpl-bar"></div>
+              <div class="tmpl-rect"></div>
+              <div class="tmpl-grid">
+                <div class="tmpl-grid-item"></div>
+                <div class="tmpl-grid-item"></div>
+                <div class="tmpl-grid-item"></div>
+                <div class="tmpl-grid-item"></div>
+              </div>
+            </div>
+          </div>
+          <div class="template-preview-info">
+            <h4>Minimal</h4>
+            <span>Clean · Professional · Grid</span>
+          </div>
+        </div>
+        <div class="template-preview-card tmpl-dark fade-up" onclick="window.location='editor.html'">
+          <div class="template-preview-thumb">
+            <div class="template-thumb-inner">
+              <div class="tmpl-bar-lg tmpl-bar"></div>
+              <div class="tmpl-bar-sm tmpl-bar"></div>
+              <div class="tmpl-rect"></div>
+              <div class="tmpl-grid">
+                <div class="tmpl-grid-item"></div>
+                <div class="tmpl-grid-item"></div>
+                <div class="tmpl-grid-item"></div>
+                <div class="tmpl-grid-item"></div>
+              </div>
+            </div>
+          </div>
+          <div class="template-preview-info" style="background:#1a1a2e;color:#fff;">
+            <h4 style="color:#fff;">Dark Canvas</h4>
+            <span style="color:rgba(255,255,255,0.5);">Dark · Dramatic · Vivid</span>
+          </div>
+        </div>
+      </div>
+      <div class="text-center" style="margin-top:3rem;">
+        <a href="editor.html" class="btn btn-primary btn-lg">Start With a Template</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================
+       HOW IT WORKS
+  ======================== -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="text-center fade-up" style="margin-bottom:0;">
+        <div class="section-tag">Process</div>
+        <h2 class="section-title">Four steps to your<br><em class="serif italic">dream portfolio.</em></h2>
+      </div>
+      <div class="steps-grid">
+        <div class="step-item fade-up">
+          <div class="step-num">1</div>
+          <h4>Choose a Template</h4>
+          <p>Browse four distinct portfolio templates and select the one that matches your creative vision.</p>
+        </div>
+        <div class="step-item fade-up">
+          <div class="step-num">2</div>
+          <h4>Add Your Projects</h4>
+          <p>Upload your creative work, write descriptions, and organize projects by category.</p>
+        </div>
+        <div class="step-item fade-up">
+          <div class="step-num">3</div>
+          <h4>Customize Your Style</h4>
+          <p>Adjust colors, typography, and layout until it feels perfectly, unmistakably <em>you</em>.</p>
+        </div>
+        <div class="step-item fade-up">
+          <div class="step-num">4</div>
+          <h4>Export &amp; Share</h4>
+          <p>Download your portfolio as a single HTML file and host it anywhere — free forever.</p>
+        </div>
+      </div>
+      <div class="text-center" style="margin-top:4rem;">
+        <a href="editor.html" class="btn btn-accent btn-lg">Build My Portfolio Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================
+       ABOUT SECTION
+  ======================== -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-inner fade-up">
+        <div class="about-text">
+          <div class="section-tag">About Portfolia</div>
+          <h2 class="section-title">Built for creatives,<br><em class="serif italic">by designers.</em></h2>
+          <p>Portfolia was created because every creative deserves a beautiful online presence — without the friction of complicated tools, expensive subscriptions, or coding tutorials.</p>
+          <p style="margin-top:1rem;">Everything runs in your browser. Your data stays on your device. No accounts, no servers, no limits.</p>
+          <a href="editor.html" class="btn btn-primary" style="margin-top:2rem;">Start Building Free</a>
+        </div>
+        <div class="about-visual">
+          <div class="about-visual-grid">
+            <div class="about-card about-card-1">
+              <div class="about-card-num">4</div>
+              <div class="about-card-label">Templates</div>
+            </div>
+            <div class="about-card about-card-2">
+              <div class="about-card-num">∞</div>
+              <div class="about-card-label">Projects</div>
+            </div>
+            <div class="about-card about-card-3">
+              <div class="about-card-num">0</div>
+              <div class="about-card-label">Cost</div>
+            </div>
+            <div class="about-card about-card-4">
+              <div class="about-card-num">1</div>
+              <div class="about-card-label">Export file</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================
+       FOOTER
+  ======================== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="nav-logo">Portfolia<span style="color:var(--lavender);">.</span></div>
+        <p>Your creativity, beautifully presented. Build a portfolio that tells your story — no coding required.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Product</h5>
+        <a href="#features">Features</a>
+        <a href="#templates">Templates</a>
+        <a href="editor.html">Editor</a>
+        <a href="preview.html">Preview</a>
+      </div>
+      <div class="footer-col">
+        <h5>Templates</h5>
+        <a href="editor.html">Editorial</a>
+        <a href="editor.html">Playful</a>
+        <a href="editor.html">Minimal</a>
+        <a href="editor.html">Dark Canvas</a>
+      </div>
+      <div class="footer-col">
+        <h5>More</h5>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#about">About</a>
+        <a href="editor.html">Get Started</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Portfolia. All rights reserved.</span>
+      <span>Made with ♥ for creative professionals.</span>
+    </div>
+  </footer>
+
+  <!-- Toast Container -->
+  <div id="toast-container"></div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
